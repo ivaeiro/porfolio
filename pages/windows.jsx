@@ -1,5 +1,5 @@
 import React from 'react'
-import Head from 'next/head'
+import Head from 'next/Head'
 import {Navbar, Footer, ContainerMain, Code} from '../components'
 import Link from 'next/link'
 
@@ -7,6 +7,9 @@ function windows() {
   return (
     <div>
     <Navbar/>
+    <Head>
+    <title>El rincón de la informática</title>
+    </Head>
     <div className="grid grid-cols-2 justify-center items-center">
           <div className="flex gap-2 justify-center items-center flex-col">
             <img className="w-1/3" src="https://imgur.com/FperofC.jpg" alt="PowerShell">
