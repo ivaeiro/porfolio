@@ -1,10 +1,14 @@
 import React from 'react'
 import {Navbar, Footer, ContainerMain, Code} from '../components'
+import Head  from 'next/head'
 
 function graylog() {
   return (
     <div>
       <Navbar/>
+      <Head>
+    <title>El rincón de la informática</title>
+    </Head>
       <ContainerMain>
         <h1 className="text-2xl text-center font-bold">Monitorizacíon con Graylog en ubuntu 20.04</h1>
 

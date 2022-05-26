@@ -1,11 +1,15 @@
 import React from "react";
 import { Navbar, Footer, ContainerMain, Code } from "../components";
 import Link from "next/link";
+import Head from "next/head";
 
 function conexionRemotaWL() {
   return (
     <>
       <Navbar />
+      <Head>
+    <title>El rincón de la informática</title>
+    </Head>
       <ContainerMain>
         <h1 className="text-2xl font-bold">
           Escritorio remoto en Ubunutu 20.04 con xRDP

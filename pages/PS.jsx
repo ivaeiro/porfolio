@@ -1,10 +1,14 @@
 import React from "react";
 import { Navbar, Footer, ContainerMain, Code } from "../components";
+import Head from "next/head";
 
 function PS() {
   return (
     <div>
       <Navbar />
+      <Head>
+    <title>El rincón de la informática</title>
+    </Head>
       <main className="block">
         <ContainerMain>
           <h1 className="text-3xl text-center font-bold p-2">

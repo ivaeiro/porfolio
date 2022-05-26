@@ -1,10 +1,14 @@
 import React from "react";
 import { Navbar, Footer, ContainerMain } from "../components";
+import Head from "next/head";
 
 function About() {
   return (
     <div>
       <Navbar />
+      <Head>
+    <title>El rincón de la informática</title>
+    </Head>
       <ContainerMain>
         <p>
           Buenas, me llamo Iván Peiró Palacio, soy de Valencia, España y tengo

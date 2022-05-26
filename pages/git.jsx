@@ -1,11 +1,15 @@
 import React from "react";
 import { Navbar, Footer, ContainerMain, Code } from "../components";
 import Link from "next/link";
+import Head from "next/head";
 
 function git() {
   return (
     <>
       <Navbar />
+      <Head>
+    <title>El rincón de la informática</title>
+    </Head>
       <main className="block">
         <ContainerMain>
           <h1 className="text-3xl text-center font-bold p-2">¿Que es Git?</h1>
