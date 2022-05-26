@@ -26,7 +26,7 @@ function graylog() {
         <p>El repositorio oficial de MongoDB proporciona la versión más actualizada y es la forma recomendada de instalar MongoDB:</p>
         <Code>
         sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 9DA31620334BD75D9DCB49F368818C72E52529D4
-        echo "deb [ arch=amd64 ] https://repo.mongodb.org/apt/ubuntu bionic/mongodb-org/4.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.0.list
+        {'echo "deb [ arch=amd64 ] https://repo.mongodb.org/apt/ubuntu bionic/mongodb-org/4.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.0.list'}
         sudo apt-get update
         sudo apt-get install -y mongodb-org
         </Code>
@@ -46,7 +46,7 @@ function graylog() {
         <Code>
         wget -q https://artifacts.elastic.co/GPG-KEY-elasticsearch -O myKey
         sudo apt-key add myKey
-        echo "deb https://artifacts.elastic.co/packages/oss-7.x/apt stable main" | sudo tee -a /etc/apt/sources.list.d/elastic-7.x.list
+        {'echo "deb https://artifacts.elastic.co/packages/oss-7.x/apt stable main" | sudo tee -a /etc/apt/sources.list.d/elastic-7.x.list'}
         {'sudo apt-get update && sudo apt-get install elasticsearch-oss'}
         </Code>
         <p>Modifique el archivo de configuración de Elasticsearch ( /etc/elasticsearch/elasticsearch.yml) y establezca el nombre del clúster en Graylog y elimine el comentario action.auto_create_index: falsepara habilitar la acción:</p>
@@ -77,7 +77,7 @@ function graylog() {
         <p>Puede que ya estén puestos en el archivo, comprobadlo.</p>
         <p>Para crear su root_password_sha2 ejecute el siguiente comando:</p>
         <p>Importante! Donde pone Enter Password, hay que quitar eso y poner ahi la contraseña con la que vas a entrar al graylog.</p>
-        <Code>echo -n "Enter Password: " {'&& head -1 </dev/stdin'} | tr -d '\n' | sha256sum | cut -d" " -f1</Code>
+        <Code>{`echo -n "Enter Password: " && head -1 </dev/stdin | tr -d '\n' | sha256sum | cut -d" " -f1`}</Code>
         <p>El último paso es habilitar Graylog durante el inicio del sistema operativo y verificar que se esté ejecutando.</p>
         <Code>
         sudo systemctl daemon-reload

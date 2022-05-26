@@ -1,6 +1,7 @@
 import React from 'react'
 import {Navbar, Footer, ContainerMain, Code} from '../components'
 import Link from 'next/link'
+import Image from 'next/image'
 
 function linux() {
   return (
@@ -9,8 +10,8 @@ function linux() {
       <div className="grid grid-cols-2 justify-center items-center">
           <div className="flex gap-2 justify-center items-center flex-col">
             <h1 className="text-2xl font-bold">Monitorizar clientes con Graylog para Ubuntu 20.04</h1>
-            <img className="w-1/3" src="https://imgur.com/kgua13L.jpg" alt="Graylog">
-            </img>
+            <Image className="w-1/3" src="https://imgur.com/kgua13L.jpg" alt="Graylog" width={250} height={250}>
+            </Image>
             <Link href="/graylog" passHref>
             <button className="p-4 border-2 border-black rounded-full">Ir a Graylog</button>
             </Link>
@@ -20,8 +21,8 @@ function linux() {
       <div className="grid grid-cols-2 justify-center items-center">
           <div className="flex gap-2 justify-center items-center flex-col">
             <h1 className="text-2xl font-bold">Conexion remota Windows Ubuntu</h1>
-            <img className="w-1/3" src="#" alt="Conexion remota Windows - Linux">
-            </img>
+            <Image className="w-1/3" src="https://imgur.com/kgua13L.jpg" alt="Conexion remota Windows - Linux" width={250} height={250}>
+            </Image>
             <Link href="/conexionRemotaWL" passHref>
             <button className="p-4 border-2 border-black rounded-full">Ir a conexion remota Windows - Linux</button>
             </Link>

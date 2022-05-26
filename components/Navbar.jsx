@@ -1,6 +1,7 @@
 import {useState} from 'react'
 import { Transition } from "@headlessui/react";
 import Link from 'next/link';
+import Image from 'next/image';
 
 function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
@@ -11,9 +12,10 @@ function Navbar() {
             <div className="flex items-center justify-between h-16">
               <div className="flex items-center">
                 <div className="flex-shrink-0">
-                  <img
+                  <Image
                     className="h-8 w-8"
-                    src="https://tailwindui.com/img/logos/workflow-mark-indigo-500.svg"
+                    src="https://tailwindui.com/Image/logos/workflow-mark-indigo-500.svg"
+                    width="250" height="250"
                     alt="Workflow"
                   />
                 </div>

@@ -1,5 +1,14 @@
 import React from "react";
+import Link from "next/link"
 
+const navLinks = [{
+  name: "Inicio",
+  link: "/"
+},
+{
+  name: "About",
+  link: "/about"
+}]
 function footer() {
   return (
     <div>
@@ -9,32 +18,15 @@ function footer() {
             <div className="flex flex-wrap items-center justify-between md:flex-nowrap">
               <div className="w-full space-x-12 flex justify-center text-gray-300 sm:w-7/12 md:justify-start">
                 <ul className="list-disc list-inside space-y-8">
-                  <li>
-                    <a href="#" className="hover:text-sky-400 transition">
-                      Inicio
-                    </a>
-                  </li>
-
-                  <li>
-                    <a href="/about" className="hover:text-sky-400 transition">
-                      About
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="hover:text-sky-400 transition">
-                      Guide
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="hover:text-sky-400 transition">
-                      Blocks
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="hover:text-sky-400 transition">
-                      Contact
-                    </a>
-                  </li>
+                  {navLinks.map((link, index) => (
+                    <li key={index}>
+                      <Link href={link.link} passHref>
+                        <a className="hover:text-sky-400 transition">
+                          {link.name}
+                        </a>
+                      </Link>
+                    </li>
+                  ))}
                 </ul>
 
                 <ul role="list" className="space-y-8">

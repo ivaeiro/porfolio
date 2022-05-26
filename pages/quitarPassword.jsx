@@ -21,7 +21,7 @@ function quitarPassword() {
             alguna tecla para iniciar el asistente de instalación de Windows 10:
           </p>
           <img src="https://imgur.com/q6QYOVl.png"/>
-          <p>2- Elegiremos la opción de "Reparar el equipo"</p>
+          <p>2- Elegiremos la opción de {'"Reparar el equipo"'}</p>
           <img src="https://imgur.com/a31nnGp.png"/>
         </ContainerMain>
       </main>
