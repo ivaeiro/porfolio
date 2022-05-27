@@ -32,7 +32,7 @@ function cmd() {
             1- Muestra la información sobre la tarjeta de red. Para ver los
             parametros que le puedes añadir al comando, /?.
           </p>
-          <Code>ifconfig</Code>
+          <Code>ipconfig</Code>
           <p>2- </p>
         </ContainerMain>
       </main>

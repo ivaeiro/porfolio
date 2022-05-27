@@ -113,29 +113,28 @@ function Navbar() {
             {(ref) => (
               <div className="md:hidden" id="mobile-menu">
                 <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-                  <Link href="../pages/inicio.jsx">
+                  <Link href="/#">
                   <a
                     className="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium"
                   >
                     Inicio
                   </a>
                   </Link>
-                  <Link href="../pages/linux.jsx" passHref>
+                  <Link href="/linux" passHref>
                   <a
-                    href="../pages/linux.jsx"
                     className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                   >
                     Linux
                   </a>
                   </Link>
-                  <Link href="../pages/windows.jsx" passHref>
+                  <Link href="/windows" passHref>
                   <a
                     className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                   >
                     Windows
                   </a>
                   </Link>
-                  <Link href="../pages/about.jsx" passHref>
+                  <Link href="/about" passHref>
                   <a
                     className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                   >

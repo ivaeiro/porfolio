@@ -17,16 +17,9 @@ function quitarPassword() {
           </h1>
           <p>
             Pasos a seguir para restablecer la contraseña de un usuario usando
-            una ISO de Windows.
+            una ISO de Hiren's Boot.
           </p>
-          <p>
-            1- Para ello debemos contar con la imagen ISO de Windows 10 en un DVD o
-            USB de arranque. La conectamos al equipo y al encenderlo pulsamos
-            alguna tecla para iniciar el asistente de instalación de Windows 10:
-          </p>
-          <img src="https://imgur.com/q6QYOVl.png"/>
-          <p>2- Elegiremos la opción de {'"Reparar el equipo"'}</p>
-          <img src="https://imgur.com/a31nnGp.png"/>
+          <p>Para descargar la ISO de Hiren's Boot, la descargaremos desde la página oficial que es, <a href="https://www.hirensbootcd.org/">hiren's Boot</a></p>
         </ContainerMain>
       </main>
       <Footer />
