@@ -17,7 +17,7 @@ function quitarPassword() {
           </h1>
           <p>
             Pasos a seguir para restablecer la contraseña de un usuario usando
-            una ISO de Hiren's Boot.
+            una ISO de Hirens Boot.
           </p>
           <p>Para descargar la ISO de Hirens Boot, la descargaremos desde la página oficial que es, <a href="https://www.hirensbootcd.org/">hiren's Boot</a></p>
         </ContainerMain>
