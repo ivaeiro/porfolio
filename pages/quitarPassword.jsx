@@ -15,10 +15,10 @@ function quitarPassword() {
           <h1 className="text-3xl text-center font-bold p-2">
             ¿Como quitar la contraseña del windows?
           </h1>
-          <p>
+          {/* <p>
             Pasos a seguir para restablecer la contraseña de un usuario usando
             una ISO de Hirens Boot.
-          </p>
+          </p> */}
           <p>Para descargar la ISO de Hirens Boot, la descargaremos desde la pagina oficial que es <a href="https://www.hirensbootcd.org/">hirens Boot</a></p>
         </ContainerMain>
       </main>
