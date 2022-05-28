@@ -11,6 +11,7 @@ export default function Home() {
        <title>El rincón de la informática</title>
      </Head>
       <Navbar/>
+      <FlipCard/>
       <Footer/>
     </>
 
