@@ -85,7 +85,6 @@ function conexionRemotaWL() {
         width={723}
         height={477}
         ></Image>
-        <img src="https://imgur.com/j83mfnP.png"/>
         <p>A continuación, nos da la oportunidad de cambiar el nombre del archivo, para no perder su valor anterior.</p>
         <h1 className="text-2xl font-bold">Comprobamos que funciona</h1>
         
