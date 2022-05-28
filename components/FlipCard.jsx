@@ -3,12 +3,12 @@ import React from 'react'
 function FlipCard() {
   return (
     <>
-    <div class="flip-card">
-  <div class="flip-card-inner">
-    <div class="flip-card-front">
+    <div className="flip-card">
+  <div className="flip-card-inner">
+    <div className="flip-card-front">
       <img src="#" alt="Avatar" />
     </div>
-    <div class="flip-card-back">
+    <div className="flip-card-back">
       <h1>Iván Peiró</h1>
       <p>Técnico en Sistemas Microinformáticos y Redes</p>
     </div>
