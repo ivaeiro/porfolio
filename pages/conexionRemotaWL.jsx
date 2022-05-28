@@ -51,7 +51,13 @@ function conexionRemotaWL() {
           haremos con la siguiente orden:
         </p>
         <Code>sudo adduser xrdp ssl-cert</Code>
-        <img src="https://imgur.com/FCq5UPg.png" alt="añadimos el usuario" />
+        <Image
+        className="w-1/3"
+        src="https://imgur.com/FCq5UPg.png"
+        alt="añadimos el usuario"
+        width={200}
+        height={200}
+        ></Image>
         <p>
           Llegados a este punto, podríamos pensar que hemos terminado. Sin
           embargo, es frecuente que al usar el escritorio remoto desde otro
@@ -72,7 +78,13 @@ function conexionRemotaWL() {
         <Code>unset DBUS_SESSION_BUS_ADDRESS</Code>
         <Code>unset XDG_RUNTIME_DIR</Code>
         <p>Al hacerlo, el editor nos preguntará si queremos guardar los cambios que hemos realizado.</p>
-        <img src="https://imgur.com/j83mfnP.png" alt="modificamos el archivo startwm.sh" />
+        <Image
+        className="w-1/3"
+        src="https://imgur.com/j83mfnP.png"
+        alt="modificamos el archivo startwm.sh"
+        width={200}
+        height={200}
+        ></Image>
         <p>A continuación, nos da la oportunidad de cambiar el nombre del archivo, para no perder su valor anterior.</p>
         <h1 className="text-2xl font-bold">Comprobamos que funciona</h1>
         
