@@ -19,7 +19,7 @@ function quitarPassword() {
             Pasos a seguir para restablecer la contraseña de un usuario usando
             una ISO de {"Hiren's"} Boot.
           </p>
-          <p>Para descargar la ISO de {"Hiren's"} Boot, la descargaremos desde la página oficial que es, <a href="https://www.hirensbootcd.org/">{"Hiren's"} Boot</a></p>
+          <p>Para descargar la ISO de {"Hiren's"} Boot, la descargaremos desde la {"página"} oficial que es, <a href="https://www.hirensbootcd.org/">{"Hiren's"} Boot</a></p>
         </ContainerMain>
       </main>
       <Footer />
