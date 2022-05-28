@@ -2,6 +2,7 @@ import React from "react";
 import { Navbar, Footer, ContainerMain, Code } from "../components";
 import Link from "next/link";
 import Head from "next/head";
+import Image from "next/image";
 
 function conexionRemotaWL() {
   return (
@@ -31,7 +32,13 @@ function conexionRemotaWL() {
           el siguiente comando:
         </p>
         <Code>sudo systemctl status xrdp</Code>
-        <img src="https://imgur.com/iDy4yNU.png" alt="systemctl status xrdp" />
+        <Image
+        className="w-1/3"
+        src="https://imgur.com/iDy4yNU.png"
+        alt="systemctl status xrdp"
+        width={200}
+        height={200}
+        ></Image>
         <p>
           Cuando instalamos xrdp, se crea también en el sistema una nueva cuenta
           de usuario llamada, precisamente, xrdp. Ademas, se crea un certificado

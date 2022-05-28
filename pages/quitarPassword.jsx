@@ -1,7 +1,7 @@
 import React from "react";
-import { Navbar, Footer, ContainerMain, Code } from "../components";
 import Link from "next/link";
 import Head from "next/head";
+import { Navbar, Footer, ContainerMain, Code } from "../components";
 
 function quitarPassword() {
   return (
