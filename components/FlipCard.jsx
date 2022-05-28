@@ -6,12 +6,11 @@ function FlipCard() {
     <div class="flip-card">
   <div class="flip-card-inner">
     <div class="flip-card-front">
-      <img src="#" alt="Avatar" style="width:300px;height:300px;"/>
+      <img src="#" alt="Avatar" />
     </div>
     <div class="flip-card-back">
-      <h1>John Doe</h1>
-      <p>Architect & Engineer</p>
-      <p>We love that guy</p>
+      <h1>Iván Peiró</h1>
+      <p>Técnico en Sistemas Microinformáticos y Redes</p>
     </div>
   </div>
 </div>

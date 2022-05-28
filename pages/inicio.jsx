@@ -1,6 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
-import {Navbar, Footer, ContainerMain} from '../components'
+import {Navbar, Footer, ContainerMain, FlipCard} from '../components'
 
 function inicio() {
   return (
@@ -10,6 +10,7 @@ function inicio() {
       </Head>
       <Navbar/>
       <ContainerMain/>
+      <FlipCard/>
       <Footer/>
     </div>
   )
