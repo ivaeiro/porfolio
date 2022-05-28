@@ -36,8 +36,8 @@ function conexionRemotaWL() {
         className="w-1/3"
         src="https://imgur.com/iDy4yNU.png"
         alt="systemctl status xrdp"
-        width={200}
-        height={200}
+        width={564}
+        height={334}
         ></Image>
         <p>
           Cuando instalamos xrdp, se crea también en el sistema una nueva cuenta
@@ -55,8 +55,8 @@ function conexionRemotaWL() {
         className="w-1/3"
         src="https://imgur.com/FCq5UPg.png"
         alt="añadimos el usuario"
-        width={200}
-        height={200}
+        width={490}
+        height={93}
         ></Image>
         <p>
           Llegados a este punto, podríamos pensar que hemos terminado. Sin
