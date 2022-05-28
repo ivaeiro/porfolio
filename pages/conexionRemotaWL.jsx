@@ -36,8 +36,8 @@ function conexionRemotaWL() {
         className="w-1/3"
         src="https://imgur.com/iDy4yNU.png"
         alt="systemctl status xrdp"
-        width={564}
-        height={334}
+        width={719}
+        height={426}
         ></Image>
         <p>
           Cuando instalamos xrdp, se crea también en el sistema una nueva cuenta
@@ -82,9 +82,10 @@ function conexionRemotaWL() {
         className="w-1/3"
         src="https://imgur.com/j83mfnP.png"
         alt="modificamos el archivo startwm.sh"
-        width={200}
-        height={200}
+        width={723}
+        height={477}
         ></Image>
+        <img src="https://imgur.com/j83mfnP.png"/>
         <p>A continuación, nos da la oportunidad de cambiar el nombre del archivo, para no perder su valor anterior.</p>
         <h1 className="text-2xl font-bold">Comprobamos que funciona</h1>
         
