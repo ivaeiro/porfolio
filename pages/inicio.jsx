@@ -9,8 +9,9 @@ function inicio() {
        <title>El rincón de la informática</title>
       </Head>
       <Navbar/>
-      <ContainerMain/>
-      <FlipCard/>
+      <ContainerMain>
+        <FlipCard></FlipCard>
+       </ContainerMain>
       <Footer/>
     </div>
   )

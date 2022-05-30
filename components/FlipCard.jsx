@@ -3,12 +3,11 @@ import Image from "next/image";
 
 function FlipCard() {
   return (
-    <>
     <div className="flip-card">
   <div className="flip-card-inner">
     <div className="flip-card-front">
         <Image
-        src="#"
+        src="https://imgur.com/Um1Tnce.jpg"
         alt="Avatar"
         width={150}
         height={150}
@@ -20,7 +19,6 @@ function FlipCard() {
     </div>
   </div>
 </div>
-    </>
   )
 }
 
