@@ -21,8 +21,7 @@ function quitarPassword() {
             una ISO de {"Hiren's"} Boot.
           </p>
           <p>
-            Para descargar la ISO de {"Hiren's"} Boot, la descargaremos desde la{" "}
-            {"página"} oficial que es,{" "}
+            Para descargar la ISO de {"Hiren's"} Boot, la descargaremos desde la {"página"} oficial que es,
             <a href="https://www.hirensbootcd.org/">{"Hiren's"} Boot</a>
           </p>
           <p>
