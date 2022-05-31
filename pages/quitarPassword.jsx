@@ -27,7 +27,7 @@ function quitarPassword() {
           </p>
           <p>
             Lo primero que tendremos que hacer es crear un USB de arranque de
-            Hiren's Boot con Rufus.
+            {"Hiren's"} Boot con Rufus.
           </p>
           <Image
             src="https://imgur.com/aB8w7nB.png"
@@ -42,7 +42,7 @@ function quitarPassword() {
             se llama Security y dentro una carpeta llamada Passwords.
           </p>
           <p>
-            Ejecutamos la utulidad "NT Password Edit" y será desplegado lo
+            Ejecutamos la utulidad NT Password Edit y será desplegado lo
             siguiente:
           </p>
           <Image
