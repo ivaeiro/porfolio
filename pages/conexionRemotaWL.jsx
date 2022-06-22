@@ -12,9 +12,9 @@ function conexionRemotaWL() {
     <title>El rincón de la informática</title>
     </Head>
       <ContainerMain>
-        <h1 className="text-2xl font-bold">
+        <h2 className="text-2xl font-bold">
           Escritorio remoto en Ubunutu 20.04 con xRDP
-        </h1>
+        </h2>
         <p>
           Partiremos de un ordenador con Ubuntu 20.04 LTS instalado. En él
           abriremos una nueva ventana de terminal
@@ -86,7 +86,7 @@ function conexionRemotaWL() {
         height={477}
         ></Image>
         <p>A continuación, nos da la oportunidad de cambiar el nombre del archivo, para no perder su valor anterior.</p>
-        <h1 className="text-2xl font-bold">Comprobamos que funciona</h1>
+        <h2 className="text-2xl font-bold">Comprobamos que funciona</h2>
         
       </ContainerMain>
       <Footer />
