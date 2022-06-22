@@ -7,14 +7,14 @@ function FlipCard() {
   <div className="flip-card-inner">
     <div className="flip-card-front">
         <Image
-        src="https://imgur.com/Um1Tnce.jpg"
+        src="https://imgur.com/UQ3lj8z.png"
         alt="Avatar"
-        width={150}
-        height={150}
+        width={200}
+        height={250}
         ></Image>
     </div>
     <div className="flip-card-back">
-      <h1>Iván Peiró</h1>
+      <p>Iván Peiró</p>
       <p>Técnico en Sistemas Microinformáticos y Redes</p>
     </div>
   </div>
