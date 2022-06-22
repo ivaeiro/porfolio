@@ -12,7 +12,7 @@ const apartado = [
   },
   {
     image: "https://imgur.com/Um1Tnce.jpg",
-    name: "Conexion remota Windows Ubuntu",
+    name: "Conexión remota Windows Ubuntu",
     url: "/conexionRemotaWL",
   },
 ];
@@ -24,15 +24,10 @@ function linux() {
       <Head>
         <title>El rincón de la informática</title>
       </Head>
-      <div className="p-4">
-        <div className="grid grid-cols-4 justify-center items-center">
-          {/*hueco blanco*/}
-          <div className="grid grid-cols-6 gap-4">
-            <div className="p-4 rounded-lg bg-stripes-sky"></div>
-          </div>
-          {/*hueco blanco*/}
+      <div className="flex justify-center p-4">
+        <div className="grid grid-cols-3 justify-center">
           {apartado.map((item, i) => (
-            <div className="text-center" key={i}>
+            <div className="text-center pb-4" key={i}>
               <Image
                 className="w-1/3"
                 src={item.image}
@@ -42,7 +37,7 @@ function linux() {
               ></Image>
               <h2 className="text-2xl font-bold">{item.name}</h2>
               <Link href={item.url} passHref>
-                <button className="p-4 border-2 border-black rounded-full">
+                <button className="style-button p-4">
                   Ir a {item.name}
                 </button>
               </Link>

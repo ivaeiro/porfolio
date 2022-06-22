@@ -1,0 +1,11 @@
+.flip-text{
+    animation-name: animation;
+    animation-duration: 2s;
+}
+@keyframes animation {
+    0%   {left: 0px;}
+    25%  {left: 200px; transform: rotateY(180deg)}
+   50%  {left: 100px; transform: rotateY(360deg)}
+    75%  {left: 200px; transform: rotate(360deg)}
+    100% {left: 0px;}
+  }

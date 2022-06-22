@@ -12,7 +12,6 @@ export default function Home() {
      </Head>
      <Navbar/>
       <ContainerMain>
-        <FlipCard></FlipCard>
        </ContainerMain>
       <Footer/>
       <Footer/>

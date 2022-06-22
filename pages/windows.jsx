@@ -21,11 +21,11 @@ const apartado = [
       name:"Git",
       url:"/git"
   },
-  // {
-  //     image:"https://imgur.com/D1S4Dtc.jpg",
-  //     name:"Quitar contraseña de windows",
-  //     url:"/quitarPassword"
-  // },
+  {
+      image:"https://imgur.com/D1S4Dtc.jpg",
+      name:"Quitar contraseña de windows",
+      url:"/quitarPassword"
+  },
 ]
 
 function windows() {
@@ -36,12 +36,10 @@ function windows() {
       <Head>
         <title>El rincón de la informática</title>
       </Head>
-
-      <div className="p-4">
-        <div className="grid grid-cols-2 justify-center items-center">
-          
+       <div className="flex justify-center p-4 "> {/*se usa flex para centrarlo */}
+         <div className="grid grid-cols-3 items-center"> {/*se usa grid para definir la posicion de las celdas */}
           {apartado.map((item, i)=>(
-            <div className="text-center" key={i}>
+            <div className="text-center pb-4" key={i}>
             <Image
               className="w-1/3"
               src={item.image}
@@ -51,7 +49,7 @@ function windows() {
             ></Image>
             <h2 className="text-2xl font-bold">{item.name}</h2>
             <Link href={item.url} passHref>
-              <button className="p-4 border-2 border-black rounded-full">
+              <button className="style-button p-4">
                 Ir a {item.name}
               </button>
             </Link>
