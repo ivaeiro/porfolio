@@ -12,7 +12,7 @@ function git() {
     </Head>
       <main className="block">
         <ContainerMain>
-          <h1 className="text-3xl text-center font-bold p-2">¿Que es Git?</h1>
+          <h2 className="text-3xl text-center font-bold p-2">¿Que es Git?</h2>
           <p>
             Git es un software de control de versiones diseñado por Linus
             Torvalds, pensando en la eficiencia, la confiabilidad y
