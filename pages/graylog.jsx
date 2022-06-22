@@ -10,7 +10,7 @@ function graylog() {
     <title>El rincón de la informática</title>
     </Head>
       <ContainerMain>
-        <h1 className="text-2xl text-center font-bold">Monitorizacíon con Graylog en ubuntu 20.04</h1>
+        <h2 className="text-2xl text-center font-bold">Monitorizacíon con Graylog en ubuntu 20.04</h2>
 
         <p>Antes de instalar el Graylog, Elasticsearch y Mongodb, tenemos que ejecutar unos comando previos.</p>
         <Code>sudo apt-get update {'&&'} sudo apt-get upgrade</Code>
@@ -25,7 +25,7 @@ function graylog() {
         </Code>
         <p>Importante! En el comando pone {'<version_number>'} hay que quitar eso y poner la versión de java que quieres instalar.</p>
 
-        <h4 className="text-2xl text-center font-bold p-2">MONGODB</h4>
+        <p className="text-2xl text-center font-bold p-2">MONGODB</p>
 
         <p>El repositorio oficial de MongoDB proporciona la versión más actualizada y es la forma recomendada de instalar MongoDB:</p>
         <Code>
@@ -44,7 +44,7 @@ function graylog() {
         <p>Después haremos el siguiente comando para comprobar que esta corriendo el servicio:</p>
         <Code>systemctl status mongodb</Code>
 
-        <h4 className="text-2xl text-center font-bold p-2">ELASTICSEARCH</h4>
+        <p className="text-2xl text-center font-bold p-2">ELASTICSEARCH</p>
 
         <p>Los siguientes comandos son para la instalación de Elasticsearch:</p>
         <Code>
@@ -68,7 +68,7 @@ function graylog() {
         sudo systemctl --type=service --state=active | grep elasticsearch
         </Code>
 
-        <h4 className="text-2xl text-center font-bold p-2">GRAYLOG</h4>
+        <p className="text-2xl text-center font-bold p-2">GRAYLOG</p>
         
         <p>Ahora instalas la configuración del repositorio de Graylog y el propio Graylog con los siguientes comandos:</p>
         <Code>
@@ -76,7 +76,7 @@ function graylog() {
         sudo dpkg -i graylog-4.2-repository_latest.deb
         sudo apt-get update {'&&'} sudo apt-get install graylog-server
         </Code>
-        <h6>Edite el archivo de configuración</h6>
+        <p>Edite el archivo de configuración</p>
         <p>Lea las instrucciones dentro del archivo de configuración y edítelas según sea necesario, ubicadas en /etc/graylog/server/server.conf.Agregar adicionalmente password_secrety root_password_sha2ya que son obligatorias y Graylog no se iniciará sin ellas .</p>
         <p>Puede que ya estén puestos en el archivo, comprobadlo.</p>
         <p>Para crear su root_password_sha2 ejecute el siguiente comando:</p>

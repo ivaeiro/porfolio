@@ -11,12 +11,12 @@ function PS() {
     </Head>
       <main className="block">
         <ContainerMain>
-          <h1 className="text-3xl text-center font-bold p-2">
+          <h2 className="text-3xl text-center font-bold p-2">
             Comandos interesantes PoweShell
-          </h1>
-          <h6 className="text-base text-center font-bold p-2">
+          </h2>
+          <p className="text-base text-center font-bold p-2">
             ¿Qué es la PoweShell?
-          </h6>
+          </p>
           <p>
             La PoweShell es es una interfaz de consola con posibilidad de
             escritura y unión de comandos por medio de instrucciones. Esta
@@ -24,10 +24,10 @@ function PS() {
             administradores de sistemas con el propósito de automatizar tareas o
             realizarlas de forma más controlada.
           </p>
-          <h5 className="text-base text-left font-bold p-2">
+          <h2 className="text-base text-left font-bold p-2">
             Aquí se añadirán todos los comandos de PowerShell que sean
             importantes o de uso frecuente
-          </h5>
+          </h2>
 
           <p>1- Comando para comprobar si SMBv1 esta activo.</p>
           <Code>

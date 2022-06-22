@@ -37,7 +37,7 @@ function linux() {
               width={200}
               height={200}
             ></Image>
-            <h1 className="text-2xl font-bold">{item.name}</h1>
+            <h2 className="text-2xl font-bold">{item.name}</h2>
             <Link href={item.url} passHref>
               <button className="p-4 border-2 border-black rounded-full">
                 Ir a {item.name}

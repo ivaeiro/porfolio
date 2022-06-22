@@ -6,7 +6,7 @@ function FlipCard() {
     <div className="flip-card">
   <div className="flip-card-inner">
     <div className="flip-card-front">
-        <Image
+        <Image className="flip-card-front"
         src="https://imgur.com/UQ3lj8z.png"
         alt="Avatar"
         width={200}
