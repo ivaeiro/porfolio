@@ -12,12 +12,12 @@ function cmd() {
       </Head>
       <main className="block">
         <ContainerMain>
-          <h1 className="text-3xl text-center font-bold p-2">
+          <h2 className="text-3xl text-center font-bold p-2">
             Comandos interesantes CMD
-          </h1>
-          <h2 className="text-base text-center font-bold p-2">
-            ¿Qué es el CMD?
           </h2>
+          <h3 className="text-base text-center font-bold p-2">
+            ¿Qué es el CMD?
+          </h3>
           <p>
             El símbolo del sistema es el intérprete de comandos en OS/2 y
             sistemas basados en Windows NT (incluyendo Windows 2000, Windows XP,
