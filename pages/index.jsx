@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import Head from 'next/head'
-import {Navbar, Footer,} from '../components'
+import {Navbar, Footer, ContainerMain, FlipCard} from '../components'
 
 
 export default function Home() {
@@ -10,7 +10,11 @@ export default function Home() {
      <Head>
        <title>El rincón de la informática</title>
      </Head>
-      <Navbar/>
+     <Navbar/>
+      <ContainerMain>
+        <FlipCard></FlipCard>
+       </ContainerMain>
+      <Footer/>
       <Footer/>
     </>
 

@@ -14,8 +14,10 @@ function FlipCard() {
         ></Image>
     </div>
     <div className="flip-card-back">
+      <div className="flip-card-text">
       <p>Iván Peiró</p>
       <p>Técnico en Sistemas Microinformáticos y Redes</p>
+      </div>
     </div>
   </div>
 </div>
