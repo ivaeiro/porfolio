@@ -7,25 +7,25 @@ import Image from "next/image";
 const apartado = [
 
   {
-      image:"https://imgur.com/FperofC.jpg",
+      image:"https://imgur.com/3tE3UKv.jpg",
       name:"PowerShell",
       url:"/PS"
   },
   {
-      image:"https://imgur.com/MlKdGZH.jpg",
+      image:"https://imgur.com/AU2I3AR.jpg",
       name:"CMD",
       url:"/cmd"
   },
   {
-      image:"https://imgur.com/d9lwhl3.png",
+      image:"https://imgur.com/hoC9s3O.png",
       name:"Git",
       url:"/git"
   },
-  {
-      image:"https://imgur.com/D1S4Dtc.jpg",
-      name:"Quitar contraseña de windows",
-      url:"/quitarPassword"
-  },
+  // {
+  //     image:"https://imgur.com/D1S4Dtc.jpg",
+  //     name:"Quitar contraseña de windows",
+  //     url:"/quitarPassword"
+  // },
 ]
 
 function windows() {
@@ -46,8 +46,8 @@ function windows() {
               className="w-1/3"
               src={item.image}
               alt={item.name}
-              width={350}
-              height={150}
+              width={200}
+              height={200}
             ></Image>
             <h1 className="text-2xl font-bold">{item.name}</h1>
             <Link href={item.url} passHref>
