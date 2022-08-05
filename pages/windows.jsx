@@ -27,7 +27,7 @@ const apartado = [
     url:"/quitarPassword"
 },
 {
-  image:"https://imgur.com/pqyuDZz.jpg",
+  image:"https://imgur.com/undefined.jpg",
   name:"Problemas en Windows Search",
   url:"/lupa"
 },
