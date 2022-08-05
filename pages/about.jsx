@@ -1,16 +1,15 @@
 import React from "react";
-// import ReactDOM from 'react-dom';
+// const ReactDOM = require("react-dom");
 import { Navbar, Footer, ContainerMain, FlipCard } from "../components";
 import Head from "next/head";
-
 
 function About() {
   // this.animation = React.createRef();
   // this.callanimation = this.callAnimation.bind(this);
 
-  // const callAnimation = () =>{
-  //   console.log("hola")
-  // }
+  // const callAnimation = () => {
+  //   console.log("hola");
+  // };
 
   return (
     <div>
@@ -19,14 +18,14 @@ function About() {
         <title>El rincón de la informática</title>
       </Head>
       <ContainerMain>
-          <FlipCard></FlipCard>
-          {/* <div className="" ref={this.animation}>
+        <FlipCard></FlipCard>
+        <div>
+        {/* <div className="" ref={this.animation}>
           <input
-          type="button"
-          value="Focus the text input"
-          onClick={this.callanimation}
+            type="button"
+            value="Focus the text input"
+            onClick={this.callanimation}
           /> */}
-          <div>
           <p>
             Buenas, me llamo Iván Peiró Palacio, soy de Valencia, España y tengo
             22 años.

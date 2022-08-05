@@ -22,17 +22,22 @@ const apartado = [
       url:"/git"
   },
   {
-      image:"https://imgur.com/D1S4Dtc.jpg",
-      name:"Quitar contraseña de windows",
-      url:"/quitarPassword"
-  },
+    image:"https://imgur.com/D1S4Dtc.jpg",
+    name:"Quitar contraseña de windows",
+    url:"/quitarPassword"
+},
+{
+  image:"https://imgur.com/3tE3UKv.jpg",
+  name:"Problemas en Windows Search",
+  url:"/lupa"
+},
 ]
 
 function windows() {
   
   return (
     <div>
-      <Navbar />
+      <Navbar/>
       <Head>
         <title>El rincón de la informática</title>
       </Head>
