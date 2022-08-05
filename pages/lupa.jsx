@@ -16,7 +16,7 @@ function lupa() {
           <h2 className="text-3xl text-center font-bold p-2">
             Problemas con el buscador de Windows Search
           </h2>
-          <p className="text-base text-center font-bold p-2">Ejecutar el proveso ctfmon.exe</p>
+          <p className="text-base text-center font-bold p-2">Ejecutar el proceso ctfmon.exe</p>
           <p>
             Este proceso es el encargado de controlar, entre otras cosas, el
             reconocimiento de voz de Windows, así como el reconocimiento de
